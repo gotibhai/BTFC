@@ -1,0 +1,179 @@
+html,body { 
+  background: url(images/field2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #464646;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+p {
+	margin: 0;
+}
+
+
+#mainpage {
+	height: 700px;
+	 margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+#header {
+	width: 100%;
+	height: 300px;
+	margin-top: 0; 
+}
+#navbar {
+	float: right;
+	font-family: 'Signika', sans-serif;
+	height: 70px;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 15%;
+}
+
+#about_but, #joinus_but, #gallery_but, #ourfamily_but {
+	color: #fff
+}
+
+#ele {
+	float: right;
+}
+
+#heading {
+	font-size: 110px;
+	font-family: 'Questrial', sans-serif;
+	color: #00FF87;
+}
+
+#about {
+	 margin-left: 10px;
+     margin-right: 10px;
+     width: 100%;
+     height: 700px;
+}
+
+#aboutus_heading {
+	font-size: 80px;
+	font-family: 'Questrial', sans-serif;
+	color: #FFC0BB;
+	margin-bottom: 30px;
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+#about-text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	margin-left: 10px;
+    margin-right: 10px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 4px;
+	border-radius: 5px;
+}
+
+#signup {
+	font-size: 100px;
+	font-family: 'Questrial', sans-serif;
+	color: #FFD104;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 50px;
+}
+
+#joinus {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 1000px;
+
+}
+#timings {
+	height: 300px;
+	width: 300px;
+}
+
+#agegrp {
+	height: 300px;
+	width: 300px;
+}
+
+#agegroup {
+	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	color: #F1FFF9;
+}
+
+#timings_text {
+	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	color: #F1FFF9;
+}
+
+#table {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#form {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: #00B88D;
+}
+
+#gallery {
+	 margin-right: 10px;
+    margin-left: 10px;
+    height: 1000px;
+}
+
+#galleryheader {
+	 margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#gheader {
+	font-size: 120px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	color: #FF723D;
+}
+
+.inlineTable {
+            display: inline-block;
+        }
+
+thead, th{
+	font-size: 25px;
+	color: #fff;
+	font-family: 'Questrial', sans-serif;
+}
+
+td {
+	color: #A5CFEA;
+}
+
+table, th, td {
+	border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

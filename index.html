@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Black Tigers FC</title> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="CreativeLinkEffects/css/component.css">
+  <link rel="stylesheet" type="text/css" href="CreativeLinkEffects/css/normalize.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
+  <script src="CreativeLinkEffects/js/modernizr.custom.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans|Signika|Questrial' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <script src="js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="gallerymaster/css/blueimp-gallery.min.css">
+
+
+</head>
+<body>
+<div id="container1">
+<div id="mainpage">
+<header>
+	<div id="navbar">
+            <img id="logo" src="images/logo3.gif">
+
+				<nav id="ele" class="cl-effect-14">
+					<a id="about_but" href="#about">About</a>
+					<a id="joinus_but" href="#joinus">Join Us</a>
+					<a id="gallery_but" href="#gallery">Gallery</a>
+					<a id="ourfamily_but" href="#ourfamily">Our Family</a>
+				</nav>
+	</div>
+
+	<div id="heading">
+		<p id="btfc">Black Tigers Football Club </p> 
+	</div>
+
+	<script type="text/javascript">
+
+var mrg = 0;
+
+$(document).ready(function(){
+  $("#about_but").on("click", function (e) {
+    e.preventDefault();
+
+  $("#about").css("margin-top" , mrg + "px");
+
+  $("body, html").animate({
+    scrollTop: $( $(this).attr('href')).offset().top }, 1400, 'swing');
+
+});
+});
+ 
+</script> 
+</header>
+</div>
+
+
+<div id="about">
+<p id="aboutus_heading" >About Us</p> 
+<p id="about-text">
+BTFC was started 7 years ago by Mrs Anju Abbott and her husband Sandeep Abbott. Their son Pushkin was a football fanatic and used to go to Jawaharlal Nehru stadium to train. The journey was not only tiresome but soon the commute started to become a problem. 
+To them the Antaranga ground, which then had no grass or other facilities, seemed a suitable place to get pushkin personally coached. After meeting some Nigerian coaches, they finally started the 1x1 sessions for Pushkin with coach Kellichi. 
+After seeing some serious football being played in the ground, kids from all the nearby societies gathered around and wanted to join the training. 
+Never having thought of starting an academy, the duo liked the idea. They decided to charge a nominal fee from the players which will be used towards maintaining the ground and paying the coaches. 
+Since then Black tigers has touched many new heights of success. Consequently winning awards in tournaments all around Delhi. 
+</p>	
+</div>
+
+<div id="joinus">
+
+  <div id="signup">
+  	<p>Sign Up</p>
+  </div>
+
+  <form id="form">
+
+  <div class="form-group row">
+    <label for="exampleInputName" class="col-sm-2 form-control-label">Full Name</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="exampleInputName" placeholder="Steven Gerrard">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="exampleInputAge" class="col-sm-2 form-control-label">Age</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="exampleInputAge" placeholder="11">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="exampleInputEmail" class="col-sm-2 form-control-label" >Email address</label>
+    <div class="col-sm-5">
+      <input type="email" class="form-control" id="exampleInputEmail" placeholder="abc@gmail.com">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="exampleInputNumber" class="col-sm-2 form-control-label">Phone Number</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="exampleInputNumber" placeholder="9811223344">
+    </div>
+  </div>
+
+  <div class="form-group row">
+  	 <label class="col-sm-2">Gender : </label>
+    <div class="col-sm-2">
+      <div class="radio">
+        <label>
+          <input type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          Male
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          Female
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="gridRadios" id="gridRadios3" value="option3">
+           Other
+        </label>
+      </div>
+    </div>
+  </div>
+
+<div class="form-inline">
+<div id="timings" class="inlineTable">
+	<div id="timings_text">
+		<p>Timings</p>
+	</div>
+
+  <table id="table" class="table-condensed">
+    <thead>
+      <tr>
+        <th>Days</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Tuesday</td>
+        <td>4:30 - 6:30</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>4:30 - 6:30</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>4:30 - 6:30</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>7:00 - 10:00</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div id="agegrp" class="inlineTable">
+  <div id="agegroup">
+  	Age Groups
+  </div>
+
+  <table id="table" class="table-condensed">
+  <thead>
+      <tr>
+        <th>Ages</th>
+        <th>Groups</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>5-7</td>
+        <td>Personal Training</td>
+      </tr>
+      <tr>
+        <td>8-13</td>
+        <td>Junior Group</td>
+      </tr>
+      <tr>
+        <td>14-18</td>
+        <td>Senior Group</td>
+      </tr>
+    </tbody>
+  	
+  </table>
+
+</div>
+
+</div>
+  
+  <button type="submit" class="btn btn-default">Submit</button>
+
+</form> 
+
+<script type="text/javascript">
+
+var mrg = 0;
+$(document).ready(function(){
+  $("#joinus_but").on("click", function (e) {
+    e.preventDefault();
+
+  $("#joinus").css("margin-top" , mrg + "px");
+
+  $("body, html").animate({
+    scrollTop: $( $(this).attr('href')).offset().top }, 1400, 'swing');
+});
+});
+ 
+</script> 
+</div>
+
+<div id="gallery">
+
+<div id="galleryheader">
+	<p id="gheader">Gallery</p>
+</div>
+
+  <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="links">
+    <a href="btfcimages/1.jpg" title="Black Tigers FC field">
+        <img src="thumbnails/1.jpg" >
+    </a>
+    <a href="btfcimages/2.jpg" title="BTFC Field">
+        <img src="thumbnails/2.jpg">
+    </a>
+    <a href="btfcimages/3.jpg" title="Sanjan and Rudransh in Action">
+        <img src="thumbnails/3.jpg">
+    </a>
+    <a href="btfcimages/4.jpg" title="Sanjan and Rudransh in Action">
+        <img src="thumbnails/4.jpg">
+    </a>
+    <a href="btfcimages/5.jpg" title="Junior Team playing a match.">
+        <img src="thumbnails/5.jpg">
+    </a>
+      <a href="btfcimages/8.jpg" title="Joshua Coach in command">
+        <img src="thumbnails/8.jpg">
+    </a>
+    <a href="btfcimages/9.jpg" title="Pushkin Juggling">
+        <img src="thumbnails/9.jpg" >
+    </a>
+    <a href="btfcimages/10.jpg" title="Pushkin Juggling">
+        <img src="thumbnails/10.jpg" >
+    </a>
+    <a href="btfcimages/12.jpg" title="Our Family">
+        <img src="thumbnails/12.jpg">
+    </a>
+    <a href="btfcimages/6.jpg" title="Coach Joshua">
+        <img src="thumbnails/6.jpg">
+    </a>
+    <a href="btfcimages/7.jpg" title="Coach Joshua">
+        <img src="thumbnails/7.jpg">
+    </a>
+    <a href="btfcimages/13.jpg" title="Match On">
+        <img src="thumbnails/13.jpg">
+    </a>
+    <a href="btfcimages/14.jpg" title="Banana">
+        <img src="thumbnails/14.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/15.jpg" title="Banana">
+        <img src="thumbnails/15.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/16.jpg" title="Banana">
+        <img src="thumbnails/16.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/22.jpg" title="Banana">
+        <img src="thumbnails/22.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/23.jpg" title="Banana">
+        <img src="thumbnails/23.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/17.jpg" title="Banana">
+        <img src="thumbnails/17.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/18.jpg" title="Banana">
+        <img src="thumbnails/18.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/19.jpg" title="Banana">
+        <img src="thumbnails/19.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/20.jpg" title="Banana">
+        <img src="thumbnails/20.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/21.jpg" title="Banana">
+        <img src="thumbnails/21.jpg" alt="Banana">
+    </a>
+        <a href="btfcimages/11.jpg" title="Banana">
+        <img src="thumbnails/11.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/24.jpg" title="Banana">
+        <img src="thumbnails/24.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/25.jpg" title="Banana">
+        <img src="thumbnails/25.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/26.jpg" title="Banana">
+        <img src="thumbnails/26.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/27.jpg" title="Banana">
+        <img src="thumbnails/27.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/28.jpg" title="Banana">
+        <img src="thumbnails/28.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/34.jpg" title="Banana">
+        <img src="thumbnails/34.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/35.jpg" title="Banana">
+        <img src="thumbnails/35.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/36.jpg" title="Banana">
+        <img src="thumbnails/36.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/37.jpg" title="Banana">
+        <img src="thumbnails/37.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/38.jpg" title="Banana">
+        <img src="thumbnails/38.jpg" alt="Banana">
+    </a>
+      <a href="btfcimages/29.jpg" title="Banana">
+        <img src="thumbnails/29.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/30.jpg" title="Banana">
+        <img src="thumbnails/31.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/32.jpg" title="Banana">
+        <img src="thumbnails/32.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/33.jpg" title="Banana">
+        <img src="thumbnails/33.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/39.jpg" title="Banana">
+        <img src="thumbnails/39.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/40.jpg" title="Banana">
+        <img src="thumbnails/40.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/41.jpg" title="Banana">
+        <img src="thumbnails/41.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/45.jpg" title="Banana">
+        <img src="thumbnails/45.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/70.jpg" title="Banana">
+        <img src="thumbnails/70.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/71.jpg" title="Banana">
+        <img src="thumbnails/71.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/43.jpg" title="Banana">
+        <img src="thumbnails/43.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/42.jpg" title="Banana">
+        <img src="thumbnails/42.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/44.jpg" title="Banana">
+        <img src="thumbnails/44.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/55.jpg" title="Banana">
+        <img src="thumbnails/55.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/66.jpg" title="Banana">
+        <img src="thumbnails/66.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/77.jpg" title="Banana">
+        <img src="thumbnails/77.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/88.jpg" title="Banana">
+        <img src="thumbnails/88.jpg" alt="Banana">
+    </a>
+     <a href="btfcimages/76.jpg" title="Banana">
+        <img src="thumbnails/76.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/79.jpg" title="Banana">
+        <img src="thumbnails/79.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/80.jpg" title="Banana">
+        <img src="thumbnails/80.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/56.jpg" title="Banana">
+        <img src="thumbnails/56.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/46.jpg" title="Banana">
+        <img src="thumbnails/46.jpg" alt="Banana">
+    </a>
+      <a href="btfcimages/47.jpg" title="Banana">
+        <img src="thumbnails/47.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/58.jpg" title="Banana">
+        <img src="thumbnails/58.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/50.jpg" title="Banana">
+        <img src="thumbnails/50.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/49.jpg" title="Banana">
+        <img src="thumbnails/49.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/52.jpg" title="Banana">
+        <img src="thumbnails/52.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/51.jpg" title="Banana">
+        <img src="thumbnails/51.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/69.jpg" title="Banana">
+        <img src="thumbnails/69.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/71.jpg" title="Banana">
+        <img src="thumbnails/71.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/68.jpg" title="Banana">
+        <img src="thumbnails/68.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/53.jpg" title="Banana">
+        <img src="thumbnails/53.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/54.jpg" title="Banana">
+        <img src="thumbnails/54.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/60.jpg" title="Banana">
+        <img src="thumbnails/60.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/59.jpg" title="Banana">
+        <img src="thumbnails/59.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/57.jpg" title="Banana">
+        <img src="thumbnails/57.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/62.jpg" title="Banana">
+        <img src="thumbnails/62.jpg" alt="Banana">
+    </a>
+      <a href="btfcimages/74.jpg" title="Banana">
+        <img src="thumbnails/74.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/75.jpg" title="Banana">
+        <img src="thumbnails/75.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/61.jpg" title="Banana">
+        <img src="thumbnails/61.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/63.jpg" title="Banana">
+        <img src="thumbnails/63.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/68.jpg" title="Banana">
+        <img src="thumbnails/68.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/73.jpg" title="Banana">
+        <img src="thumbnails/73.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/72.jpg" title="Banana">
+        <img src="thumbnails/72.jpg" alt="Banana">
+    </a>
+     <a href="btfcimages/67.jpg" title="Banana">
+        <img src="thumbnails/67.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/65.jpg" title="Banana">
+        <img src="thumbnails/65.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/68.jpg" title="Banana">
+        <img src="thumbnails/68.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/64.jpg" title="Banana">
+        <img src="thumbnails/64.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/85.jpg" title="Banana">
+        <img src="thumbnails/85.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/84.jpg" title="Banana">
+        <img src="thumbnails/84.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/83.jpg" title="Banana">
+        <img src="thumbnails/83.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/91.jpg" title="Banana">
+        <img src="thumbnails/91.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/89.jpg" title="Banana">
+        <img src="thumbnails/89.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/87.jpg" title="Banana">
+        <img src="thumbnails/87.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/86.jpg" title="Banana">
+        <img src="thumbnails/86.jpg" alt="Banana">
+    </a>
+    <a href="btfcimages/85.jpg" title="Banana">
+        <img src="thumbnails/85.jpg" alt="Banana">
+    </a>
+
+
+</div>
+
+<script src="gallerymaster/js/blueimp-gallery.min.js"></script>
+
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
+
+<script type="text/javascript">
+var mrg = 0;
+$(document).ready(function(){
+  $("#gallery_but").on("click", function (e) {
+    e.preventDefault();
+
+  $("#gallery").css("margin-top" , mrg + "px");
+
+  $("body, html").animate({
+    scrollTop: $( $(this).attr('href')).offset().top }, 1400, 'swing');
+});
+});
+</script>
+	
+</div>
+
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
